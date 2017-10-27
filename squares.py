@@ -38,7 +38,14 @@ def main():
     pygame.display.update()
     #time.sleep(3)
 
+    #comp_sequence for testing
+    #should flash green, red, yellow, blue
+    comp_sequence = [1,2,3,4]
 
+
+
+
+    #user input loop
     running = True
     while(running):
         for event in pygame.event.get():
@@ -62,7 +69,7 @@ def main():
                         print "blue"
                     else:
                         print('null')
-
+    #user input loop
 
 
     #clean exit
